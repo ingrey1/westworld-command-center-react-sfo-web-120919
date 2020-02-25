@@ -1,0 +1,24 @@
+WestWorldMap: functional component
+
+   This component is merely a container for some Areas.
+
+   Area: functional component - presents a hostlist; 
+       (1) contains a hostList.
+    Hostlist: functional component - presents Hosts
+       
+     Host: presentational component. OnClick will place host in details / hostInfo
+
+HeadQuarters: functional component
+   
+   this component contains the out of service hosts, the details panel for a host, and the log
+
+   Cold Storage: presentational component for hostlist.
+
+      HostList: contains some hosts, presentational component
+
+      Host: onClick will place host in details
+
+  Details: Has image or selected Host info
+     HostInfo: 
+        OnSelect to set area.  onActivate to set activation status to commissioned or decommissioned. 
+         
